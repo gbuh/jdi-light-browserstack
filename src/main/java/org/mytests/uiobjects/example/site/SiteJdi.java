@@ -20,7 +20,7 @@ public class SiteJdi {
     public static DatesPage datesPage;
     public static Html5Page html5Page;
     public static UsersPage usersPage;
-    @Css("form") public static Form<User> loginForm;
+    @Css("#login-form") public static Form<User> loginForm;
 
     @Css(".profile-photo [ui=label]") public static UIElement userName;
     @Css(".fa-sign-out") public static WebElement logout;

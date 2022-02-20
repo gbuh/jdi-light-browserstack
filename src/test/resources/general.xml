@@ -2,9 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="JDI-Light Performance" parallel="classes" thread-count="6">
     <test name="Tests">
-        <packages>
-            <package name="org.mytests.tests.example"/>
-        </packages>
+        <classes>
+<!--            <class name="org.mytests.tests.example.KKRTests"></class>-->
+            <class name="org.mytests.tests.example.FormTests">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+<!--        <packages>-->
+<!--            <package name="org.mytests.tests.example"/>-->
+<!--        </packages>-->
     </test>
     <listeners>
         <listener class-name="org.mytests.tests.testng.TestNGListener" />

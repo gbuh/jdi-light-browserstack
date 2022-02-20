@@ -10,7 +10,7 @@
     <name>Browserstack template</name>
 
     <properties>
-        <driver>firefox</driver>
+        <driver>chrome</driver>
         <remote.type>browserstack</remote.type>
         <domain>https://jdi-testing.github.io/jdi-light/</domain>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
