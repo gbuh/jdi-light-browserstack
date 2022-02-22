@@ -28,14 +28,14 @@ public class States {
     @Step
     public static void loginKKR() throws InterruptedException {
         onKKRSite();
-        kkrPage.cookies.click();
-        kkrPage.email.setValue("testuser_2");
-        kkrPage.password.setValue("Test123@");
-        kkrPage.loginBtn.click();
-        kkrPage.logSpinner.waitFor(15).disappear();
-        kkrPage.spinner.waitFor(15).disappear();
-        kkrPage.download.click();
-        Thread.sleep(5000);
+//        kkrPage.cookies.click();
+//        kkrPage.email.setValue("testuser_2");
+//        kkrPage.password.setValue("Test123@");
+//        kkrPage.loginBtn.click();
+//        kkrPage.logSpinner.waitFor(15).disappear();
+//        kkrPage.spinner.waitFor(15).disappear();
+//        kkrPage.download.click();
+        Thread.sleep(1000);
     }
 
     private static void onSite() {

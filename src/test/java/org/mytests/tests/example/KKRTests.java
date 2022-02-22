@@ -1,6 +1,6 @@
 package org.mytests.tests.example;
 
-import com.epam.jdi.tools.Safe;
+import com.jdiai.tools.Safe;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import org.mytests.tests.TestsInit;
 import org.testng.Assert;

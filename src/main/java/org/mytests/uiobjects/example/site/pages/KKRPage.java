@@ -14,7 +14,7 @@ import com.epam.jdi.light.ui.html.elements.common.TextField;
 import org.mytests.uiobjects.example.site.custom.MenuItem;
 import org.openqa.selenium.WebElement;
 
-@Url("/login") @Title("Home Page")
+@Url("/") @Title("Home Page")
 public class KKRPage extends WebPage {
     @UI("#onetrust-accept-btn-handler") public static Button cookies;
     @UI("#email") public static TextField email;
