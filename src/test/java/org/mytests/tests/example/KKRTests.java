@@ -16,7 +16,7 @@ import static org.mytests.uiobjects.example.site.SiteKKR.kkrPage;
 
 public class KKRTests implements TestsInit {
     @Test
-    public void test() throws InterruptedException {
+    public void loginTest() throws InterruptedException {
         loginKKR();
     }
 

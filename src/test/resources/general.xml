@@ -3,8 +3,8 @@
 <suite name="JDI-Light Performance" parallel="classes" thread-count="6">
     <test name="Tests">
         <classes>
-<!--            <class name="org.mytests.tests.example.KKRTests"></class>-->
-            <class name="org.mytests.tests.example.FormTests">
+            <class name="org.mytests.tests.example.KKRTests">
+<!--            <class name="org.mytests.tests.example.FormTests">-->
                 <methods>
                     <include name="loginTest"/>
                 </methods>
