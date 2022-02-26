@@ -49,5 +49,4 @@ public class KKRTests implements TestsInit {
 //        Assert.assertTrue(true, "Test2 passed");
 //        Assert.assertFalse(false, "Test2 passed again");
 //    }
-
 }
