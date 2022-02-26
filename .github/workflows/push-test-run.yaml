@@ -20,7 +20,9 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: AWS_ACCESS_KEY_ID
+            requred: true
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+            requred: true
           aws-region: eu-central-1
       - name: Run i-test-automation
         uses: aws-actions/aws-codebuild-run-build@v1.0.3
