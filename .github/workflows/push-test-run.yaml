@@ -1,12 +1,11 @@
 name: 'on-push-codebuild'
 
 on: [push]
-  workflow_dispatch:
-    secrets:
-      AWS_ACCESS_KEY_ID:
-        requred: true
-      AWS_SECRET_ACCESS_KEY:
-        requred: true
+  secrets:
+    AWS_ACCESS_KEY_ID:
+      requred: true
+    AWS_SECRET_ACCESS_KEY:
+      requred: true
 jobs:
   push-test-run:
     name: 'push-test-automation'
